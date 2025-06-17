@@ -33,49 +33,12 @@ The notebook:
 
 ---
 
-## Repository structure
-
-```
-.
-├── data/                  # Empty by default; dataset downloaded at runtime
-├── notebooks/
-│   └── tumour_sde.ipynb   # Main Colab / Jupyter notebook
-├── src/
-│   ├── io.py              # Data loading & mask processing
-│   ├── models.py          # SDE drift & diffusion definitions
-│   ├── inference.py       # MLE & PyMC-based Bayesian routines
-│   ├── filters.py         # EKF & PF implementations
-│   └── analyse.py         # Validation metrics & plotting helpers
-├── figures/               # Auto-generated plots
-├── environment.yml        # Conda spec (Python 3.11)
-└── README.md
-```
-
----
-
-## Installation (local)
-
-```bash
-git clone https://github.com/<your-org>/tumour-immunotherapy-sde.git
-cd tumour-immunotherapy-sde
-conda env create -f environment.yml   # installs Python, numpy, scipy, pymc, etc.
-conda activate tumour-sde
-jupyter lab  # or run the notebook of your choice
-```
-
-> **Dataset note:**  
-> The first run will download ≈ 3 GB of MRI data from TCIA
-> (`data/` folder). You need ~10 GB free disk space for full processing.
-
----
-
 ## Reproducing the paper
 
 | Step | Script / Notebook                         | Output                                |
 |------|-------------------------------------------|---------------------------------------|
-| 1    | `notebooks/tumour_sde.ipynb`              | Figures 2–7, parameter tables         |
-| 2    | `python src/analyse.py --summary`         | `results/summary.csv` (AIC/BIC, RMSE) |
-| 3    | `python src/analyse.py --patient 0006`    | Per-patient sensitivity plots         |
+| 1    | `code/project-notebook.ipynb`             | all figures         |
+
 
 All derived artefacts are stored in `figures/` and `results/`.
 
@@ -91,6 +54,7 @@ the paper (BibTeX entry in `CITATION.cff`) **and** acknowledge the data source:
   title  = {PKG – Glioma Post},
   year   = {2022},
   note   = {The Cancer Imaging Archive},
+  url    = {https://www.cancerimagingarchive.net/collection/mu-glioma-post/}
 }
 ```
 
