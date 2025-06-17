@@ -20,7 +20,7 @@ manuscript.
 > **One-click replication:**  
 > Open the interactive Colab notebook below — no local setup required.
 
-[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://drive.google.com/file/d/1A0m5bNgqdj6tUyX3XLM_R93lVuTB0xK9/view?usp=sharing)
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1A0m5bNgqdj6tUyX3XLM_R93lVuTB0xK9)
 
 The notebook:
 
