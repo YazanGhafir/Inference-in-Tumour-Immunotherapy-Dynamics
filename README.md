@@ -7,7 +7,7 @@ This repository contains the full, reproducible codebase that accompanies the
 paper
 
 > **Inference in Tumour–Immunotherapy Dynamics**  
-> *Yazan Ghafir & Nikos Kavallaris* (2024)
+> *Yazan Ghafir & Nikos Kavallaris* (2025)
 
 It implements data preprocessing, stochastic‐differential‐equation (SDE)
 modelling, maximum‐likelihood and Bayesian parameter inference, Extended
