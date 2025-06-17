@@ -22,13 +22,11 @@ manuscript.
 
 [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1A0m5bNgqdj6tUyX3XLM_R93lVuTB0xK9)
 
-The notebook:
+To run the notebook:
 
-1.  Downloads the **MU–Glioma–Post** cohort from TCIA.  
-2.  Extracts volumetric tumour time-series for the 59 patients selected in the
-    study.
-3.  Reproduces every figure and table in a single run (≈ 15 min on Colab
-    CPU).
+1.  Open the Colab  
+2.  Upload the CSV file that you find under the folder data to the Colab notebook file directory.
+3.  From the top: Run > Run all
 
 ---
 
